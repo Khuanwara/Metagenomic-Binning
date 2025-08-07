@@ -14,7 +14,8 @@ binning-run [CONTIG_FASTA] [Composition Features] -o [OUT_DIR]
 ```
 # Required File Formats
 1. Contig File
-Contig file from metaSPAdes tool containing the genomes in following format.
+   
+The contig file from the metaSPAdes tool contains the genomes in the following format.
 ```
 >NODE_509_length_56_cov_70.000000
 AAGGCTCTTCAGGAATAAGAGTGTAACCACCTGAAACCAACACCCCGATTCCCGGG
