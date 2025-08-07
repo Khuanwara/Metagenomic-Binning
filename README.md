@@ -11,7 +11,6 @@ pip install .
 2. Then run following command to run the tool.
 ```
 binning-run [CONTIG_FASTA] [Composition Features_TSV] --out [OUT_DIR]
-
 ```
 # Required File Formats
 Contig File
