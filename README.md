@@ -3,3 +3,10 @@ The Bowmodel is a multi-stage binning method designed to enhance metagenomic ana
 
 # Installation
 First clone the BowModel repository to a local directory. Note that BowModel only supports linux.
+
+# Required File Formats
+Contig File
+Contig file from metaSPAdes tool containing the genomes in following format.
+
+Composition Features File
+Composition Features File from iLearn tool 
