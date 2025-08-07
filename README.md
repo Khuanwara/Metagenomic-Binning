@@ -10,7 +10,7 @@ pip install .
 ```
 2. Then run following command to run the tool.
 ```
-binning-run [CONTIG_FASTA e.g. contigs.fasta] [Composition Features e.g 4Mer_Composition]
+binning-run contigs.fasta 4Mer_Composition
 ```
 # Required File Formats
 1. Contig File
@@ -27,5 +27,5 @@ CCAGCAGAACCCCTGGTCCTGCTAACTCGGTGTCCACTACCCGGGGTGAACCTCAC
 
      Run the following command in the iLearn tool to access the Composition features file.
 ```
-python descnucleotide/RCKmer.py --file [CONTIG_FASTA e.g. contigs.fasta] --kmer 4 --normalize --format csv --out [OUT_DIR e.g 4Mer_Composition]
+python descnucleotide/RCKmer.py --file contigs.fasta --kmer 4 --normalize --format csv --out 4Mer_Composition
 ```
