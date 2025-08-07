@@ -25,7 +25,7 @@ CCAGCAGAACCCCTGGTCCTGCTAACTCGGTGTCCACTACCCGGGGTGAACCTCAC
 
 2. Composition Features File
 
-  Run the following command in the iLearn tool to access the Composition features file.
+     Run the following command in the iLearn tool to access the Composition features file.
 ```
 python descnucleotide/RCKmer.py --file [CONTIG_FASTA] --kmer 4 --normalize --format csv --out [OUT_DIR]
 ```
