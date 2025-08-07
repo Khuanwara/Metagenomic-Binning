@@ -3,11 +3,11 @@ The Bowmodel is a multi-stage binning method designed to enhance metagenomic ana
 
 # Installation
 1. First clone the BowModel repository to a local directory. Note that BowModel only supports linux.
-
-git clone https://github.com/yourname/binning_project.git
-cd binning_project
+```
+git clone https://github.com/Khuanwara/Metagenomic-Binning.git
+cd Metagenomic-Binning/Binning_project/
 pip install .
-
+```
 2. Then run following command to run the tool.
 ```
 binning-run [CONTIG_FASTA] [Composition Features] -o [OUT_DIR]
