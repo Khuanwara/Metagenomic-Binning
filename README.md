@@ -13,8 +13,8 @@ pip install .
 binning-run [CONTIG_FASTA] [Composition Features_TSV] --out [OUT_DIR]
 ```
 # Required File Formats
-Contig File
+1. Contig File
 Contig file from metaSPAdes tool containing the genomes in following format.
 
-Composition Features File
+2. Composition Features File
 Composition Features File from iLearn tool 
