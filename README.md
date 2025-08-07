@@ -18,5 +18,5 @@ Contig file from metaSPAdes tool containing the genomes in following format.
 
 2. Run the following command in the iLearn tool to access the Composition Features file.
 ```
-python descnucleotide/RCKmer.py --file contigs.fasta --kmer 4 --normalize --format csv --out [OUT_DIR]
+python descnucleotide/RCKmer.py --file [CONTIG_FASTA] --kmer 4 --normalize --format csv --out [OUT_DIR]
 ```
