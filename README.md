@@ -9,12 +9,9 @@ cd binning_project
 pip install .
 
 2. Then run following command to run the tool.
-   `binning-run [CONTIG_FASTA] [Composition Features_TSV] --out [OUT_DIR]`
-   Some basic Git commands are:
 ```
-git status
-git add
-git commit
+binning-run [CONTIG_FASTA] [Composition Features_TSV] --out [OUT_DIR]
+
 ```
 # Required File Formats
 Contig File
