@@ -15,7 +15,7 @@ binning-run [CONTIG_FASTA] [Composition Features] -o [OUT_DIR]
 # Required File Formats
 1. Contig File
    
-The contig file from the metaSPAdes tool contains the genomes in the following format.
+   The contig file from the metaSPAdes tool contains the genomes in the following format.
 ```
 >NODE_509_length_56_cov_70.000000
 AAGGCTCTTCAGGAATAAGAGTGTAACCACCTGAAACCAACACCCCGATTCCCGGG
@@ -23,7 +23,9 @@ AAGGCTCTTCAGGAATAAGAGTGTAACCACCTGAAACCAACACCCCGATTCCCGGG
 CCAGCAGAACCCCTGGTCCTGCTAACTCGGTGTCCACTACCCGGGGTGAACCTCAC
 ```
 
-2. Run the following command in the iLearn tool to access the Composition Features file.
+2. Composition Features File
+
+  Run the following command in the iLearn tool to access the Composition features file.
 ```
 python descnucleotide/RCKmer.py --file [CONTIG_FASTA] --kmer 4 --normalize --format csv --out [OUT_DIR]
 ```
